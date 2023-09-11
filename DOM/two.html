@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM2 </title>
+</head>
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    //Traditional way to add element in this case this is traversesd again and again
+//    function addLanguage(langName){
+//     const li=document.createElement('li');
+//     li.innerHTML= `${langName}`
+//     document.querySelector('.language').appendChild(li)
+//    }
+//    addLanguage('python')
+//    addLanguage('Type Script')
+
+
+//Optimized way
+//    function addOptiLanguage(langName){
+//     const li = document.createElement('li');
+//     li.appendChild(document.createTextNode(langName))
+//     document.querySelector('.language').appendChild(li)
+//    }
+//    addOptiLanguage('ruby')
+
+
+
+
+
+//EDIT
+// const secondlang= document.querySelector("li:nth-child(1)")
+// const newli =document.createElement('li')
+// newli.textContent="Mojo"
+// secondlang.replaceWith(newli)
+
+
+//other method to edit
+// const fourthlang = document.querySelector("li:last-child");
+// fourthlang.outerHTML = '<li>Typo</li>'
+
+
+
+
+
+
+//remove
+// const thirdlang  = document.querySelector('li:nth-child(3)');
+// thirdlang.remove()
+
+
+</script>
+</html>

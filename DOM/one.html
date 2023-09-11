@@ -1,0 +1,69 @@
+
+
+
+
+<!-- document.getElementById('test') -->
+<!-- very Important -->
+
+<!-- title.innerHTML   :shows data with the inside tag
+'DOM Learning<span style="display: none;"> test txt</span> by zain'
+title.innerText     :shows exact data and consider css applied on data 
+likeif you hide data by applying cs but it shows if youuse this
+'DOM Learning by zain'
+title.textContent    :returns the whole data
+'DOM Learning test txt by zain' -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    
+// const parent =document.querySelector('.parent');
+// console.log(parent);
+// console.log(parent.children); //gives you onl first childrem
+// console.log(parent.children[1].innerHTML);
+
+
+// for (let i= 0; i< parent.children.length; i++) {
+    
+//     console.log(parent.children[i].innerHTML);
+// }
+// parent.children[2].style.color="orange"
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+// const dayone = document.querySelector('.day')
+// console.log(dayone.parentElement);
+// console.log(dayone.nextSibling);
+// console.log("nodes : ", parent.childNodes);
+
+
+
+// const h1 = document.createElement('h1');
+// console.log(h1);
+// h1.className = "main"
+// h1.id=Math.round(Math.random() *10 +1);
+// h1.setAttribute("title","generated Title")
+// h1.style.backgroundColor ="green";
+// // h1.innerHTML="zain"
+// const addtext= document.createTextNode("zain");
+// h1.appendChild(addtext)
+// document.body.appendChild(h1)
+</script>
+</html>
+
+
+
