@@ -29,7 +29,7 @@
 //*****************************************************************************************//
 //**************************  Important Number Method *************************************//
 //*****************************************************************************************//
-//toFixed   //Fixed the values after the point like that if score= 100.453  and set Fixedto(1) output is score=104 
+//toFixed   //Fixed the values after the point like that if score= 100.453  and set toFixed(1) output is score=104 
 //toString  //converts into string and then your also apply different string methods 
 //toLocaleString   //convert the value in to some form like balance =10000 and it converts to 10,000 add commas
 //toPrecision    //it conerts value to full after point like if b = 10.536 you should precise according o valubut keepin mind about the point 
